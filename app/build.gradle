@@ -16,6 +16,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    signingConfigs {
+        config {
+            // keyAlias 'nriadda'
+            //keyPassword 'nriadda'
+            //storeFile file('C:/Users/Administrator/Desktop/KeyStore/NRI_Adda/NRI_Adda.jks')
+            //storeFile file('D:/Annapoorna/NRIAddaFiles/KeyStore/NRI_Adda/NRI_Adda.jks')
+            //storePassword 'nriadda'
+            keyAlias 'gitexample'
+            keyPassword 'gitexample'
+            storeFile file('D:/sravani/MyWorkspace/GitExample/git_example.jks')
+            storePassword 'gitexample'
+        }
+    }
 }
 
 dependencies {
